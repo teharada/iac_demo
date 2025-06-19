@@ -14,7 +14,7 @@ provider "oci" {
 }
 module "vcn01" {
   source            = "./vcn_module"
-  display_name	  = "vcn01x"
+  display_name	  = "vcn01"
   dns_label    = "vcn01"
   cidr_block    = "10.0.0.0/16"
   compartment_id    = var.compartment_ocid
